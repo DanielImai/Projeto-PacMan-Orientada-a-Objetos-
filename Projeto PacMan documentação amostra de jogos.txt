@@ -1,0 +1,15 @@
+/*Projeto PacMan feito por
+Daniel Imai - 7552
+Otávio Massanobu - 5974
+Nathan Monteiro - 6311
+Programado em C++ usando ALLEGRO*/
+
+Documentacao da movimentacao do fantasma inteligente:
+
+O fantasma atualizado gosta de "guardar caixao"
+
+Utilizamos a tuple para guardar 3 elementos: o x, o y e a distancia do fanstasma para o pacman utilizando uma função da internet
+Verificamos qual posição ele pode ir e guardamos essa posição na tuple e calculamos a distancia de cada tuple criada e armazenamos
+no terceiro elemento dela.
+Ordenamos em ordem crescente de acordo com o terceiro elemento que seria a distancia entao pegamos a menor distancia e as novas
+posicoes que pegará e colocamos no elemento da nossa classe do fantasma

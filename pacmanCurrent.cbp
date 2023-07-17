@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pacmanCurrent" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pacmanCurrent" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../allegro-x86_64-w64-mingw32-5.2.7.0 (3)/allegro/lib/liballegro_monolith-debug.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pacmanCurrent" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../allegro-x86_64-w64-mingw32-5.2.7.0 (3)/allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../allegro-x86_64-w64-mingw32-5.2.7.0 (3)/allegro/include" />
+		</Compiler>
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="Ghost.cpp" />
+		<Unit filename="Ghost.h" />
+		<Unit filename="GhostInt.cpp" />
+		<Unit filename="GhostInt.h" />
+		<Unit filename="MainTrab.cpp" />
+		<Unit filename="Pilula.cpp" />
+		<Unit filename="Pilula.h" />
+		<Unit filename="Tijolo.cpp" />
+		<Unit filename="Tijolo.h" />
+		<Unit filename="back.png" />
+		<Unit filename="backtest.png" />
+		<Unit filename="ghost.png" />
+		<Unit filename="ghost2.png" />
+		<Unit filename="ghost3.png" />
+		<Unit filename="ghost4.png" />
+		<Unit filename="pacman.cpp" />
+		<Unit filename="pacman.h" />
+		<Unit filename="pacman.png" />
+		<Unit filename="pacmanCurrent.cbp" />
+		<Unit filename="pacmantest.png" />
+		<Unit filename="pil.png" />
+		<Unit filename="theme.wav" />
+		<Unit filename="tij.png" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
